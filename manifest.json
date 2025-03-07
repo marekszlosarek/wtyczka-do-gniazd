@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Auto wyszukiwanie zleceń",
+    "version": "1.0",
+    "description": "Wtyczka, która wyszukuje otwarte zlecenia dla danego SNu.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [""],
+            "js": ["content.js"]
+        }
+    ]
+}
